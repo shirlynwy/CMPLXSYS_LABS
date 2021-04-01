@@ -38,7 +38,7 @@ susc_mf = [] # fraction of nodes that are susceptible in the mean field model
 
 edge_num = np.floor(comb(N, 2) * p_e);
 k = round(edge_num * 2 / N)
-beta = 0.5
+beta = 0.2
 def initialize():
     global g, nextg, prev, prev_mf, susc_mf
     

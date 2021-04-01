@@ -32,8 +32,9 @@ def initialize():
     g.pos = nx.spectral_layout(g)
     N = len(g._node)
 # =============================================================================
-#     plt.figure()
-#     nx.draw_networkx(g, g.pos, with_labels = False, node_size = 50) # draw network
+    # plt.figure()
+    # nx.draw_networkx(g, g.pos, with_labels = False, node_size = 50) # draw network
+    # plt.show()
 # =============================================================================
     # plt.show()
 # =============================================================================

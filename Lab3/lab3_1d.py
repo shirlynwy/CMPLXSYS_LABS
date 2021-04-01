@@ -27,7 +27,7 @@ R0 = (N-1)*p_e*p_i/p_r
 
 edge_num = np.floor(comb(N, 2) * p_e)
 k = round(edge_num * 2 / N)
-beta = 0.5
+beta = 0.4
 
 timesteps = 100
 numsims = 100
